@@ -1,6 +1,6 @@
 import os
 from flask_cors import CORS
-from flask import Flask, jsonify
+from flask import Flask
 from .config import DevelopmentConfig, ProductionConfig
 
 # Creating Flask application
@@ -14,12 +14,14 @@ if mode == 'development':
 else:
     app.config.from_object(ProductionConfig)
 
+
 # Allow CORS
 CORS(app, supports_credentials=True)
 
 # Initialize Controllers
 from .controllers.typeform import typeform
-app.register_blueprint(typeform, url_prefix='/typeform')
+
+app.register_blueprint(typeform, url_prefix='/responses')
 
 
 # Unauthenticated heartbeat to see if this is alive
