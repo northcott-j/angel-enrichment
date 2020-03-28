@@ -21,7 +21,7 @@ CORS(app, supports_credentials=True)
 # Initialize Controllers
 from .controllers.typeform import typeform
 
-app.register_blueprint(typeform, url_prefix='/responses')
+app.register_blueprint(typeform, url_prefix='/typeform')
 
 
 # Unauthenticated heartbeat to see if this is alive
