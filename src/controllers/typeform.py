@@ -15,3 +15,4 @@ def response_webhook(data: Dict):
     :return: sends an email and logs information
     """
     print(data)
+    return jsonify('i got it!!!')
