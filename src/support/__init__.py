@@ -1,0 +1,1 @@
+from .route.route_decorators import inject_request_body
