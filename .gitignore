@@ -2,6 +2,7 @@
 .env
 .py-env
 .idea/*
+credentials.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

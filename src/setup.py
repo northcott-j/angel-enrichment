@@ -21,9 +21,11 @@ CORS(app, supports_credentials=True)
 # Initialize Controllers
 from .controllers.typeform import typeform
 from .controllers.resources import resources
+from .controllers.analysis import analysis
 
 app.register_blueprint(typeform, url_prefix='/typeform')
 app.register_blueprint(resources, url_prefix='/resources')
+app.register_blueprint(analysis, url_prefix='/analysis')
 
 
 # Unauthenticated heartbeat to see if this is alive
