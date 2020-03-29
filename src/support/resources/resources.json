@@ -3,33 +3,24 @@
     "adult": {
       "sex": [],
       "labor": [],
-      "general": [
-        {
-          "name": "US Adult Hotline",
-          "description": "Hotline for all Adult Victims in US",
-          "phone": "123-456-7890",
-          "email": "joey@example.com",
-          "website": "example.com"
-        }
-      ]
+      "general": []
     },
     "child": {
-      "sex": [
-        {
-          "name": "US Child Sex Hotline",
-          "description": "Hotline for child sex trafficking victims in US",
-          "phone": "234-678-9012",
-          "email": "kevin@example.com",
-          "website": "example.com"
-        }
-      ],
+      "sex": [],
       "labor": [],
       "general": []
     },
     "general": {
       "sex": [],
       "labor": [],
-      "general": []
+      "general": [
+        {
+          "name": "National Human Trafficking Hotline",
+          "description": "The National Human Trafficking Hotline connects victims and survivors of sex and labor trafficking with services and supports to get help and stay safe.",
+          "phone": "1 (888) 373-7888",
+          "website": "humantraffickinghotline.org"
+        }
+      ]
     }
   },
   "state:massachusetts": {
@@ -55,6 +46,43 @@
           "website": "example.com"
         }
       ]
+    }
+  },
+  "state:rhode-island": {
+    "adult": {
+      "sex": [],
+      "labor": [],
+      "general": []
+    },
+    "child": {
+      "sex": [],
+      "labor": [],
+      "general": [
+        {
+          "name": "St. Mary's Home for Children",
+          "description": "Partnering with youth, adults, and families, St. Mary’s Home for Children fosters resilience and potential through a continuum of innovative residential, community-based, education, and prevention services.",
+          "phone": "(401) 353-3900 x416",
+          "website": "www.smhfc.org"
+        }
+      ]
+    },
+    "general": {
+      "sex": [
+        {
+          "name": "Day One",
+          "description": "Day One’s mission is to reduce the prevalence of sexual abuse and violence and to advocate for those affected by it. Day One is the only agency in Rhode Island organized specifically to deal with issues of sexual assault as a community concern.",
+          "phone": "(800) 494-8100",
+          "website": "DayOneRI.org"
+        },
+        {
+          "name": "Sojourner House",
+          "description": "Sojourner House is a comprehensive domestic violence and sexual assault agency. Sojourner House is a member of the RI Coalition Against Domestic Violence and provides safe shelter, transitional housing, permanent supportive housing, the Providence metro area’s only drop-in advocacy and resource center, Rhode Island’s only shelters for male victims of domestic violence and victims of human trafficking, support and advocacy for children who witness domestic violence, and more.",
+          "phone": "(401) 765-3232",
+          "website": "sojournerri.org"
+        }
+      ],
+      "labor": [],
+      "general": []
     }
   },
   "city:boston": {
@@ -90,29 +118,13 @@
     },
     "child": {
       "sex": [],
-      "labor": [
-        {
-          "name": "International Child Labor Line",
-          "description": "Hotline to report child labor anywhere in the world",
-          "phone": "+1 234-333-4456",
-          "email": "international@example.com",
-          "website": "example.com"
-        }
-      ],
+      "labor": [],
       "general": []
     },
     "general": {
       "sex": [],
       "labor": [],
-      "general": [
-        {
-          "name": "International Trafficking Live Chat",
-          "description": "A 24/7 live resource for trafficking victims worldwide",
-          "phone": "+1 344-553-2345",
-          "email": "whoa@example.com",
-          "website": "example.com"
-        }
-      ]
+      "general": []
     }
   }
 }
