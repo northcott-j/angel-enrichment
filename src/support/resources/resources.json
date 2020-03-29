@@ -1,0 +1,118 @@
+{
+  "country:united-states": {
+    "adult": {
+      "sex": [],
+      "labor": [],
+      "general": [
+        {
+          "name": "US Adult Hotline",
+          "description": "Hotline for all Adult Victims in US",
+          "phone": "123-456-7890",
+          "email": "joey@example.com",
+          "website": "example.com"
+        }
+      ]
+    },
+    "child": {
+      "sex": [
+        {
+          "name": "US Child Sex Hotline",
+          "description": "Hotline for child sex trafficking victims in US",
+          "phone": "234-678-9012",
+          "email": "kevin@example.com",
+          "website": "example.com"
+        }
+      ],
+      "labor": [],
+      "general": []
+    },
+    "general": {
+      "sex": [],
+      "labor": [],
+      "general": []
+    }
+  },
+  "state:massachusetts": {
+    "adult": {
+      "sex": [],
+      "labor": [],
+      "general": []
+    },
+    "child": {
+      "sex": [],
+      "labor": [],
+      "general": []
+    },
+    "general": {
+      "sex": [],
+      "labor": [],
+      "general": [
+        {
+          "name": "Massachusetts Trafficking Shelter",
+          "description": "Shelter in Massachusetts for any Trafficking Victim",
+          "phone": "456-789-0123",
+          "email": "diana@example.com",
+          "website": "example.com"
+        }
+      ]
+    }
+  },
+  "city:boston": {
+    "adult": {
+      "sex": [],
+      "labor": [],
+      "general": []
+    },
+    "child": {
+      "sex": [
+        {
+          "name": "Boston Children's Home",
+          "description": "Home for Boston children that are victims of sex trafficking",
+          "phone": "678-901-2344",
+          "email": "prince@example.com",
+          "website": "example.com"
+        }
+      ],
+      "labor": [],
+      "general": []
+    },
+    "general": {
+      "sex": [],
+      "labor": [],
+      "general": []
+    }
+  },
+  "international": {
+    "adult": {
+      "sex": [],
+      "labor": [],
+      "general": []
+    },
+    "child": {
+      "sex": [],
+      "labor": [
+        {
+          "name": "International Child Labor Line",
+          "description": "Hotline to report child labor anywhere in the world",
+          "phone": "+1 234-333-4456",
+          "email": "international@example.com",
+          "website": "example.com"
+        }
+      ],
+      "general": []
+    },
+    "general": {
+      "sex": [],
+      "labor": [],
+      "general": [
+        {
+          "name": "International Trafficking Live Chat",
+          "description": "A 24/7 live resource for trafficking victims worldwide",
+          "phone": "+1 344-553-2345",
+          "email": "whoa@example.com",
+          "website": "example.com"
+        }
+      ]
+    }
+  }
+}
